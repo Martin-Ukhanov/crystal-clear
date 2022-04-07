@@ -13,7 +13,7 @@
 }
 
 #banner {
-	height: 2rem;
+	height: 2.5rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -32,15 +32,15 @@
 }
 
 #header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }    
 
 #header .container {
-    width: 90%;
+	width: 90%;
 	display: flex;
-    justify-content: space-between;
+	justify-content: space-between;
 	align-items: center;
 }
 
@@ -56,8 +56,8 @@
 }
 
 #header a:link, #header a:visited {
-    text-decoration: none;
-    color: inherit;
+	text-decoration: none;
+	color: inherit;
 }
 
 #header a:hover {
@@ -65,12 +65,12 @@
 }
 
 #header a:link, #header a:visited {
-    text-decoration: none;
-    color: inherit;
+	text-decoration: none;
+	color: inherit;
 }
 
 #header a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 #info {
@@ -114,8 +114,21 @@
 	padding: 2rem 0 2rem 0;
 }
 
+#content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#content .container {
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 #content img {
-	width: 25rem;
+	width: 26rem;
 	border-radius: 4px;
 	box-shadow: 0.5rem 0.5rem var(--crystal-green);
 	transition: transform 0.1s;
@@ -128,8 +141,9 @@
 #footer {
 	display: flex;
 	justify-content: space-evenly;
-	background-color: var(--crystal-blue);
 	padding: 1rem 0 1rem 0;
+	color: white;
+	background-color: var(--crystal-blue);
 }
 
 #footer h2 {
@@ -161,6 +175,7 @@
 #footer .sign-up button {
 	width: 4.5rem;
 	margin-left: 0.5rem;
+	color: white;
 	background-color: var(--crystal-green);
 }
 
@@ -178,6 +193,7 @@
 
 #footer .sign-up .icons img {
 	width: 4rem;
+	filter: invert(100%);
 }
 
 #footer .locations .container {
