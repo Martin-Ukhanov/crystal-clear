@@ -50,7 +50,7 @@
 
 #header ul {
 	display: flex;
-	column-gap: 0.5rem;
+	column-gap: 20px;
 	list-style-type: none;
 	font-size: 1.4rem;
 }
