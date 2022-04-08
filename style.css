@@ -24,7 +24,7 @@
 
 #banner a:link, #banner a:visited {
 	text-decoration: none;
-	text-shadow:0px 0px 1px white;
+	font-weight: bold;
 	color: white;
 }
 
